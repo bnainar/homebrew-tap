@@ -1,25 +1,25 @@
 class JenkinsTui < Formula
   desc "Terminal UI for running Jenkins parameterized pipelines in bulk"
   homepage "https://github.com/bnainar/jenkins-tui"
-  version "0.0.0-202602250654-0a8a741"
+  version "0.0.0-202602250812-ec70239"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bnainar/jenkins-tui/releases/download/main-202602250654-0a8a741/jenkins-tui_0.0.0-202602250654-0a8a741_darwin_arm64.tar.gz"
-      sha256 "38f9f2540f732efe36bd962692ebe0b96b2d9df613fdfc1f8d048075fc2dfbc6"
+      url "https://github.com/bnainar/jenkins-tui/releases/download/main-202602250812-ec70239/jenkins-tui_0.0.0-202602250812-ec70239_darwin_arm64.tar.gz"
+      sha256 "20f9a879994e1d3658ab2dc09f33141bc515c792db3c7792c28a47cd40cedde1"
     else
-      url "https://github.com/bnainar/jenkins-tui/releases/download/main-202602250654-0a8a741/jenkins-tui_0.0.0-202602250654-0a8a741_darwin_amd64.tar.gz"
-      sha256 "52396aa7343467a4e3b0d852af16ea2f3684a41b6fe6b093d0859525bb0e8b77"
+      url "https://github.com/bnainar/jenkins-tui/releases/download/main-202602250812-ec70239/jenkins-tui_0.0.0-202602250812-ec70239_darwin_amd64.tar.gz"
+      sha256 "d80540a4d9ccb4e5fc691b16219d4033fff790c2948d390d7b0381720f0166d6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/bnainar/jenkins-tui/releases/download/main-202602250654-0a8a741/jenkins-tui_0.0.0-202602250654-0a8a741_linux_arm64.tar.gz"
-      sha256 "e816a4ee15ef79170a05ad234dbb4e71e569f2af4fecc1fae4749feece9a67a3"
+      url "https://github.com/bnainar/jenkins-tui/releases/download/main-202602250812-ec70239/jenkins-tui_0.0.0-202602250812-ec70239_linux_arm64.tar.gz"
+      sha256 "92cea654622c129a7a209cb7415c4a2d0ee76f042232db5892cfa52084106284"
     else
-      url "https://github.com/bnainar/jenkins-tui/releases/download/main-202602250654-0a8a741/jenkins-tui_0.0.0-202602250654-0a8a741_linux_amd64.tar.gz"
-      sha256 "2db7ad25294d6e5121749a8984b0e2f50a866f5420939b357aae20e7dd6a221d"
+      url "https://github.com/bnainar/jenkins-tui/releases/download/main-202602250812-ec70239/jenkins-tui_0.0.0-202602250812-ec70239_linux_amd64.tar.gz"
+      sha256 "5de8521cf3254de918cfe436e1cf359d776a167e857a681b6b2a86712e5f0130"
     end
   end
 
